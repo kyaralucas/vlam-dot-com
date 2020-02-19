@@ -4,7 +4,7 @@
 	///////////////////////////
 	// Preloader
 	$(window).on('load', function() {
-		$("#preloader").delay(600).fadeOut();
+		$("#preloader").delay(400).fadeOut();
 	});
 
 	///////////////////////////
@@ -29,6 +29,7 @@
 			scrollTop: 0
 		}, 600);
 	});
+
 
 	///////////////////////////
 	// Btn nav collapse

@@ -110,6 +110,9 @@ a:hover, a:focus {
 
 .white-text {
     color: #FFF;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ::-moz-selection {
@@ -252,12 +255,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .main-btn, .white-btn, .outline-btn {
     display: inline-block;
-    padding: 10px 35px;
+    padding: 5px 15px;
     margin: 3px;
     border: 2px solid transparent;
     border-radius: 3px;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
+    /* font-size: 12px; */
 }
 
 .main-btn {
@@ -822,16 +826,16 @@ header {
 
 .service {
     position: relative;
-    padding: 40px 20px 40px 70px;
+    padding: 40px 20px 40px 50px;
     margin: 15px 0px;
     border: 1px solid #EEE;
 }
 
 .service i {
     position: absolute;
-    left: 20px;
+    left: 10px;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     color: #0000FF;
     border-radius: 50%;
 }
@@ -1525,7 +1529,7 @@ header {
 .footer-copyright p {
     text-align: center;
     font-size: 14px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 0;
     color: white;
 }
@@ -1684,30 +1688,30 @@ header {
 \*------------------------------------*/
 
 #back-to-top {
-  	display:none;
-  	position: fixed;
-  	bottom: 20px;
-  	left: 20px;
-  	width: 50px;
-  	height: 50px;
-  	line-height: 50px;
-  	text-align: center;
-  	background: #FF931E;
-  	border-radius:3px;
-  	color: #FFF;
-  	z-index: 9999;
+    /* display:none; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    background: #FF931E;
+    border-radius:3px;
+    color: #FFF;
+    z-index: 9999;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
-  	cursor: pointer;
+    cursor: pointer;
 }
 
 #back-to-top:after {
-    content: "\f106";
-    font-family: 'FontAwesome';
+  content: "\f106";
+  font-family: 'FontAwesome';
 }
 
 #back-to-top:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /*------------------------------------*\
